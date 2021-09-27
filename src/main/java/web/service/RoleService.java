@@ -1,10 +1,12 @@
 package web.service;
 
+import org.springframework.stereotype.Service;
 import web.dao.RoleDao;
 import web.model.Role;
 
 import java.util.List;
 
+@Service
 public class RoleService {
 
     private final RoleDao roleDao;
